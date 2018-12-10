@@ -1,0 +1,15 @@
+{
+  "name": "first-protractor-test",
+  "version": "1.0.0",
+  "description": "Protractor is an end-to-end test framework for Angular and AngularJS applications.",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "SharifCoding",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}
