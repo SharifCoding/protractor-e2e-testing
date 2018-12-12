@@ -1,0 +1,15 @@
+{
+  "name": "simple-protractor-tutorial",
+  "version": "1.0.0",
+  "description": "This is a simple tutorial that shows you how to set up Protractor and start running tests.",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "SharifCoding",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}

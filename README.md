@@ -6,6 +6,7 @@ Protractor is an end-to-end test framework for Angular and AngularJS application
 
 ### Table of Projects
 - [First Protractor Test](./firstTest/README.md)
+- [Simple Protractor Tutorial](./simpleTutorial/README.md)
 
 #### Further help
 To get more help on the Protractor go check out the [protractortest.org](https://www.protractortest.org).
