@@ -1,0 +1,15 @@
+{
+  "name": "e2e-testing-Pokedex",
+  "version": "1.0.0",
+  "description": "Creating an end to end testing (E2E) on Angular Pokédex app.",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "SharifCoding",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}
