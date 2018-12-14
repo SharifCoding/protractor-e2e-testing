@@ -1,6 +1,6 @@
 # E2E testing on NG-Pokédex app
 
-Creating an end to end testing (E2E) on Angular Pokédex app, an NG-Pokédex app which allows users to view and search Pokemon characters.
+Creating an end to end testing (E2E) on Angular Pokédex app, an [NG-Pokédex](https://ng-pokedex.firebaseapp.com/pokemon) app which allows users to view and search Pokemon characters.
 
 End to end testing (E2E) or also known as integration testing to make sure at a high-level overview that an applications function correctly. E2E tests are not Unit tests. Unit tests should test a small isolated piece of code while the E2E test is a high-level test of a feature or several interactions.
 
