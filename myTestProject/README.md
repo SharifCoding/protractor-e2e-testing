@@ -38,6 +38,23 @@ describe('workspace-project App', () => {
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```bash
+Jasmine started
+  workspace-project App
+    ✓ should display welcome message
+
+Executed 1 of 1 spec SUCCESS in 1 sec.
+[17:07:55] I/launcher - 0 instance(s) of WebDriver still running
+[17:07:55] I/launcher - chrome #01 passed
+Apples-MBP:myTestProject$
+```
+Delays are introduced on automation scripts to make it easier for us to see the flow:
+```ts
+// delay by 4 seconds
+browser.sleep(4000);
+// wait for specific condition before progressing
+browser.wait(homePage.getGlobalArticlesLoader().getAttribute('hidden'), 8000);
+```
 
 #### Further Reading
 - [Automate E2E testing of Angular apps with ProtractorJS & Jasmine](https://medium.com/paramsingh-66174/automate-e2e-testing-of-angular-4-apps-with-protractorjs-jasmine-fcf1dd9524d5) - Testing happens at various levels — Unit testing, Integration testing, End to End testing and more.
