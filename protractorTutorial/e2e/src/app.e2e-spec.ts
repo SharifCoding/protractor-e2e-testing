@@ -1,4 +1,5 @@
 import { AppPage } from './app.po';
+import { browser } from 'protractor';
 
 describe('workspace-project App', () => {
   let page: AppPage;
@@ -7,8 +8,9 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display Public message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to protractor-tutorial!');
+    browser.sleep(4000);
+    expect(page.getParagraphText()).toEqual('Public');
   });
 });
