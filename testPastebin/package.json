@@ -1,0 +1,15 @@
+{
+  "name": "tests-pastebin-app",
+  "version": "1.0.0",
+  "description": "Writing E2E tests for a basic Pastebin application.",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "SharifCoding",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}
