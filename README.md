@@ -9,8 +9,8 @@ Protractor is an end-to-end test framework for Angular and AngularJS application
 - [Simple Protractor Tutorial](./simpleTutorial/README.md)
 - [E2E testing on NG-Pokédex app](./e2ePokemon/README.md)
 - [My Test Project](./myTestProject/README.md)
-- [Testing Login page with Protractor](./protractorTutorial/README.md)
 - [E2E tests for a Pastebin app](./testPastebin/README.md)
+- [Testing Login page with Protractor](./protractorTutorial/README.md)
 
 ### Setup
 Use `npm` to install Protractor globally with:

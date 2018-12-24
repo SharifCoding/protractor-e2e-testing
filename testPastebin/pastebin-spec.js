@@ -10,7 +10,7 @@ describe('Protractor Demo', () => {
     expect(element(by.className('navbar-brand')).getText()).toContain('Insignificant Pastebin App');
   });
    
-  it('should click the create Paste button',() => {
+  it('should click the Paste Code button',() => {
     browser.sleep(1000);
     expect(element(by.name('form')).isPresent()).toBeFalsy('The form shouldn\'t appear right now');
     element(by.partialLinkText('Paste code')).click();
@@ -20,16 +20,12 @@ describe('Protractor Demo', () => {
 
   it('should accept and save input values', () => {
     element(by.partialLinkText('Paste code')).click();
-
-    // send input values to the form using sendKeys
     element(by.name('title')).sendKeys('Hello world in Javascript');
     element(by.cssContainingText('option', 'Javascript')).click();
     element(by.name('body')).sendKeys('console.log(\"Hello, World!\");');
     element(by.css('input[type="submit"]')).click();
-    browser.sleep(2000);
-
-    // expect the table to contain the new paste
+    browser.sleep(1000);
     const lastRow = element.all(by.tagName('tr')).last();
     expect(lastRow.getText()).toContain("Hello world in Javascript");
-});
+  });
 });
