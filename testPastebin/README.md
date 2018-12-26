@@ -8,7 +8,7 @@ Writing E2E tests for a basic [Pastebin](http://laserpants.github.io/pastebin-an
 - The modal window displays the paste data with options to edit and save the paste.
 - Each row in the table is selectable via the title, when clicked on, isplays the paste data.
 
-The [pastebin-specPO.js](https://github.com/SharifCoding/protractor-e2e-testing/blob/master/testPastebin/pastebin-specPO.js) is the spec file with Page Objects appied which works alongside the [paste-objects.js](https://github.com/SharifCoding/protractor-e2e-testing/blob/master/testPastebin/paste-objects.js) file.
+The [pastebin-specPO.js](https://github.com/SharifCoding/protractor-e2e-testing/blob/master/testPastebin/pastebin-specPO.js) is the spec file with Page Objects appied which works alongside the [page-objects.js](https://github.com/SharifCoding/protractor-e2e-testing/blob/master/testPastebin/page-objects.js) file.
 
 Running the test:
 ```bash
